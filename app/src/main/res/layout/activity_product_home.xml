@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductHome">
+
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="159dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="Product All"
+        android:textAlignment="center"
+        android:textColor="#FF8F00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="406dp"
+        android:layout_height="672dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        tools:layout_editor_absoluteX="0dp">
+
+        <!-- Other UI elements or layouts if needed -->
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="406dp"
+            android:layout_height="639dp"
+            android:layout_marginBottom="43dp"
+            tools:listitem="@layout/item_cart" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

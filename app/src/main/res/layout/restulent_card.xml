@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <!-- Your product card UI elements go here -->
+
+    <ImageView
+        android:id="@+id/restulentproductImage"
+        android:layout_width="411dp"
+        android:layout_height="129dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/restulentproductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Add more elements as needed -->
+
+</LinearLayout>

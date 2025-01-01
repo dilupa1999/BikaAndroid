@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="yellow">#F9A825</color>
+
+
+    <color name="shape_start">#373520</color>
+    <color name="shape_center">#373520</color>
+    <color name="shape_end">#FFB906</color>
+
+
+    <color name="singe_shape_start">#FFB906</color>
+    <color name="singe_shape_end">#FFFFFF</color>
+
+
+
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#d2d2d2</color>
+
+    <!--    for text field-->
+    <color name="premiumEditTextBackground">#F0F0F0</color>
+    <color name="premiumEditTextText">#333333</color>
+    <color name="premiumEditTextHint">#666666</color>
+
+
+
+</resources>

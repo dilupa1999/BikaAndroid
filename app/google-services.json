@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "759216561117",
+    "project_id": "bika-1d432",
+    "storage_bucket": "bika-1d432.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759216561117:android:02d796003af7e6fefd3434",
+        "android_client_info": {
+          "package_name": "com.example.bika"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8VUSfg47cRGg_5w-G4kyjNsxPYng7Kjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

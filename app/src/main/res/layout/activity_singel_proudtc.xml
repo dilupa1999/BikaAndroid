@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/singelbackground"
+
+    tools:context=".SingelProudtc">
+
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="262dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="389dp"
+        android:layout_height="426dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Pot Buriyani"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="shrimps,egg,pork,choy,cabbage.Noodles  fave or trying something completely new, we want your  tastebuds to be your happy buds"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="267dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:paddingStart="20dp"
+                android:text="300g/530 kcal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingEnd="20dp"
+                android:text="1 portion"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="247dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="20dp"
+                android:text="Bika Kurunagala"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:text="****"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDecrement"
+                android:layout_width="77dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="80dp"
+                android:backgroundTint="#FFFFFF"
+                android:drawableTint="#0C0A0A"
+                android:outlineProvider="bounds"
+                android:text="-"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:iconTint="#F8F8F8" />
+
+            <TextView
+                android:id="@+id/textViewQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="1"
+                android:textColor="#FF8F00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonIncrement"
+                android:layout_width="65dp"
+                android:layout_height="59dp"
+                android:backgroundTint="#FFFFFF"
+                android:text="+"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:text="LKR"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="165dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:text="900 .00"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FBBC05"
+                android:drawableEnd="@drawable/time_24"
+                android:text="Add to cart"
+                android:textColor="#FFFFFF"
+                app:iconTint="#FFFFFF" />
+
+        </LinearLayout>
+
+
+        <!-- Inside your LinearLayout -->
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
